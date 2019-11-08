@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.rootPane1{
+	-fx-background-color: linear-gradient(#2EFEC8, #C8FE2E); }
+	
+.rootPane2{
+	-fx-background-color: linear-gradient(#58D3F7, #2EFEC8); }
+	
+.rootPane3{
+	-fx-background-color: linear-gradient(#F5D0A9, #58D3F7); }
+	
+.rootPane4{
+	-fx-background-color: linear-gradient(#C8FE2E, #F5D0A9); }
+	
