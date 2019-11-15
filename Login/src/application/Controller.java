@@ -1,8 +1,19 @@
 package application;
 
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+
+import com.jfoenix.controls.JFXButton;
+
 import javafx.animation.FadeTransition;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 public class Controller {
