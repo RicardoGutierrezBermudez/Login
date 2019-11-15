@@ -1,14 +1,60 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 
 .rootPane1{
-	-fx-background-color: linear-gradient(#2EFEC8, #C8FE2E); }
+	-fx-background-color: linear-gradient(#2EFEC8, #C8FE2E); 
+}
 	
 .rootPane2{
-	-fx-background-color: linear-gradient(#58D3F7, #2EFEC8); }
+	-fx-background-color: linear-gradient(#58D3F7, #2EFEC8); 
+}
 	
 .rootPane3{
-	-fx-background-color: linear-gradient(#F5D0A9, #58D3F7); }
+	-fx-background-color: linear-gradient(#F5D0A9, #58D3F7); 
+}
 	
 .rootPane4{
-	-fx-background-color: linear-gradient(#C8FE2E, #F5D0A9); }
+	-fx-background-color: linear-gradient(#C8FE2E, #F5D0A9); 
+}
+
+.header{
+	-fx-background-color: #00c3f8; 
+}
+	
+.img1{
+	-fx-background-image: url('../../img/1.jpg');
+}
+
+.img2{
+	-fx-background-image: url('../../img/2.jpg');
+}
+
+.img3{
+	-fx-background-image: url('../../img/3.jpg');
+}
+
+.img4{
+	-fx-background-image: url('../../img/4.jpg');
+}
+
+.color1{
+	-fx-background-color: #01FF37;
+}
+
+.color2{
+	-fx-background-color: #22E4FF;
+}
+
+.color3{
+	-fx-background-color: #58FA82;
+}
+
+.color4{
+	-fx-background-color: #01DFD7;
+}
+
+.buttonHome:hover {
+  	-fx-background-color: #FA5858;
+}
+
+
 	
