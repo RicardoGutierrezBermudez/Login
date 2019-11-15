@@ -30,6 +30,8 @@ public class Controller {
 	@FXML
 	private Pane pane4;
 
+	private AnchorPane root2;
+	
 	public void initialize() {
 
 		backgroundAnimation();
@@ -101,6 +103,24 @@ public class Controller {
 
 				});
 
+	}
+	
+	@FXML
+	private void stageHomePage(){	
+		try {
+			FXMLLoader loader2 = new FXMLLoader(getClass().getResource("Home.fxml"));
+			root2 = loader2.load();
+			Stage stage = new Stage();
+			stage.initModality(Modality.APPLICATION_MODAL);
+			stage.setTitle("Home Page");
+			stage.setScene(new Scene(root2));
+			stage.setResizable(false);
+			stage.show();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 }

@@ -122,31 +122,8 @@ public class Controller2 {
 
             });
 
-
-
-
         });
 
-
-
     }
-    
-    @FXML
-	private void stageHomePage(ActionEvent event){	
-		try {
-			FXMLLoader loader2 = new FXMLLoader(getClass().getResource("Home.fxml"));
-			Parent root2 = (Parent) loader2.load();
-			Stage stage = new Stage();
-			stage.initModality(Modality.APPLICATION_MODAL);
-			stage.setTitle("Home Page");
-			stage.setScene(new Scene(root2));
-			stage.setResizable(false);
-			stage.show();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
 
 }
