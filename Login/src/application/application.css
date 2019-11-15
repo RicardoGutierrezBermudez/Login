@@ -56,5 +56,11 @@
   	-fx-background-color: #FA5858;
 }
 
+.buttonHome2:hover {
+  	-fx-background-color: #FA5858;
+  	-fx-text-fill: white;
+  	-fx-opacity: 1;
+}
+
 
 	
